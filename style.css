@@ -1,0 +1,280 @@
+/* base style */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #222831;
+  font-family: 'Vazir', sans-serif;
+  direction: rtl;
+}
+/* start Nav style */
+.nav__top {
+  display: flex;
+  background-color: #1a1d24;
+  justify-content: space-between;
+  align-content: center;
+}
+
+.section__left {
+  list-style-type: none;
+  display: flex;
+}
+
+.section__left li {
+  padding: 10px;
+}
+.section__right {
+  list-style-type: none;
+  display: flex;
+}
+
+.section__right li {
+  padding: 10px;
+}
+
+.section__left a {
+  text-decoration: none;
+  color: #a3a2a1;
+}
+.section__left a:hover {
+  color: #e7e3df;
+}
+.section__right a {
+  text-decoration: none;
+  color: #c6a612;
+}
+
+.logo {
+  margin: 6px;
+  width: 35px;
+  height: 35px;
+}
+
+.fa-search {
+  color: aliceblue;
+  cursor: pointer;
+}
+
+.logo_text {
+  cursor: pointer;
+  padding: 9px 3px;
+  font-size: 17px;
+  color: #c6a612;
+}
+
+.section__right a:hover {
+  color: #eedb89;
+}
+
+/* end Nav style */
+
+/* start header style */
+header {
+  padding: 50px;
+}
+
+.header_top h2 {
+  color: #e1e7d1;
+  padding-bottom: 10px;
+  margin-right: 10px;
+}
+.header_top hr {
+  width: 20%;
+}
+/* article style */
+.new_article {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, minmax(230px, auto));
+  grid-gap: 10px;
+}
+.img-cover {
+  width: 283px;
+  height: 290px;
+}
+.new_article article {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  border: solid 1px black;
+  border-radius: 4px;
+  background-color: #1a1d24;
+}
+
+.news-post {
+  padding: 20px;
+}
+.title-post {
+  color: #dfa612;
+  font-size: 22px;
+}
+.desc-post {
+  padding-top: 10px;
+  color: #9c9a93;
+}
+
+.post-footer {
+  width: 250px;
+  height: 40px;
+  margin-top: 55px;
+}
+.author-name {
+  color: #dfa612;
+  font-size: 0.85em;
+  position: relative;
+  bottom: 26px;
+  left: 60px;
+}
+.date-send {
+  color: #9c9a93;
+  font-size: 0.85em;
+}
+
+.img-footer {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+}
+
+/* end header style */
+
+/* start main style*/
+.main-top {
+  margin-right: 30px;
+}
+.main-top h2 {
+  color: #e1e7d1;
+  padding-bottom: 10px;
+  margin-right: 10px;
+}
+.main-top hr {
+  width: 20%;
+}
+
+/* news style */
+.news {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: minmax(100px, auto);
+  grid-gap: 15px;
+  padding: 10px;
+  margin: 15px;
+}
+
+.news-article {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(3, minmax(30px, auto));
+  background-color: #1a1d24;
+  border: solid 1px black;
+  border-radius: 4px;
+}
+
+.news-img-cover {
+  width: 425px;
+  height: 150px;
+}
+.news-title-post {
+  color: #dfa612;
+  margin: 25px;
+}
+.news-desc-post {
+  color: #9c9a93;
+  margin: 25px;
+}
+
+.news-post-footer {
+  margin-top: 25px;
+}
+.news-author-name {
+  color: #dfa612;
+  font-size: 0.85em;
+  position: relative;
+  bottom: 20px;
+  left: 60px;
+}
+.news-date-send {
+  color: #9c9a93;
+  font-size: 0.85em;
+}
+
+.news-img-footer {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  margin-right: 20px;
+}
+
+.continue {
+  background-color: #1a1d24;
+  color: #e1e7d6;
+  padding: 10px;
+  border: 1px solid #9c9a93;
+  position: relative;
+  right: 370px;
+  font-family: 'Vazir';
+  border-radius: 7px;
+  width: 600px;
+}
+
+.continue:hover {
+  box-shadow: 1px 2px #4b4b4b;
+  cursor: pointer;
+}
+/* end news style */
+/* end main style*/
+/* section style */
+.section-top {
+  padding: 15px;
+  margin: 15px;
+}
+.section-top h2 {
+  color: #e1e7d1;
+  padding-bottom: 10px;
+  margin-right: 10px;
+}
+.section-top hr {
+  width: 20%;
+}
+
+.tutorials {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 10px;
+  padding: 10px;
+  margin: 10px;
+}
+
+.tutorial-img-cover {
+  width: 318px;
+  height: 150px;
+}
+
+/* footer style */
+
+.footer {
+  padding: 30px;
+  margin: 30px;
+}
+
+.float-right {
+  float: right;
+}
+
+.float-left {
+  float: left;
+}
+
+.fa-github {
+  color: #e1e7d1;
+}
+
+.copy-right {
+  color: #e1e7d1;
+}
+
+.copy-right a {
+  text-decoration: none;
+  color: #e9e977;
+}

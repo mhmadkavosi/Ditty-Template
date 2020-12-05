@@ -113,11 +113,14 @@ header {
   padding-top: 10px;
   color: #9c9a93;
 }
-
-.post-footer {
+.post-footer-top {
   width: 250px;
   height: 40px;
   margin-top: 55px;
+}
+.post-footer {
+  width: 250px;
+  height: 40px;
 }
 .author-name {
   color: #dfa612;

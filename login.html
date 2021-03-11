@@ -5,7 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>ورود</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="/css/registers.css" />
     <link
       rel="shortcut icon"
       href="images/logo-black.png"
@@ -40,14 +41,19 @@
     <!-- End Nav -->
     <!-- main content -->
     <main>
-      <form>
+      <form class="login-form">
         <h1>ورود</h1>
         <label for="email">ایمیل</label>
+
         <input type="email" name="email" />
+
         <label for="password">رمز عبور</label>
+
         <input type="password" name="password" />
+
         <label for="remember-me">به یاد داشتن</label>
-        <input type="radio" name="remember-me" />
+        <input type="checkbox" name="remember-me" />
+
         <input type="submit" value="ورود" />
         <hr />
         <a href="#">فراموشی کلمه عبور؟</a>

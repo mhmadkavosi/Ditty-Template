@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>ورود</title>
     <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/registers.css" />
     <link
       rel="shortcut icon"
       href="images/logo-black.png"
@@ -40,19 +41,19 @@
     <!-- End Nav -->
     <!-- main content -->
     <main>
-      <form>
-        <h1>ورود</h1>
-        <label for="name">نام</label>
-        <input type="text" name="name" />
+      <form class="login-form login-form-height">
+        <h1>ثبت نام</h1>
         <label for="email">ایمیل</label>
+
         <input type="email" name="email" />
+
         <label for="password">رمز عبور</label>
         <input type="password" name="password" />
+
         <label for="password">یه بار دیگه رمز عبور</label>
-        <input type="password" name="password" />
-        <label for="remember-me">به یاد داشتن</label>
-        <input type="radio" name="remember-me" />
+        <input type="password" name="password-confirm" />
         <input type="submit" value="ثبت نام" />
+        <hr />
         <a href="login.html">ورود؟</a>
       </form>
     </main>

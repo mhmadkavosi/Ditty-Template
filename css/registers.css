@@ -76,3 +76,7 @@ main {
   margin-top: 15px;
   border-color: #1a1d24;
 }
+
+.login-form-height {
+  height: 520px;
+}

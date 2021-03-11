@@ -59,7 +59,8 @@ body {
 
 .logo_text {
   cursor: pointer;
-  padding: 9px 3px;
+  display: inline-block;
+  padding-top: 7px;
   font-size: 17px;
   color: #c6a612;
 }
